@@ -15,11 +15,13 @@
       },
       "animations": {
         "idle": "animation.saibamen.idle",
-        "walk": "animation.saibamen.walk"
+        "walk": "animation.saibamen.walk",
+        "punch": "animation.saibamen.punch"
       },
       "animation_controllers": [
         {"idle": "controller.animation.saibamen.idle"},
-        {"walk": "controller.animation.saibamen.walk"}
+        {"walk": "controller.animation.saibamen.walk"},
+        {"punch": "controller.animation.saibamen.punch"}
       ],
       "spawn_egg": {
         "texture": "saibamen_green_egg",
