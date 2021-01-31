@@ -2,34 +2,26 @@
 	"format_version": "1.10.0",
 	"animation_controllers": {
 		"controller.animation.saibamen.idle": {
-			"initial_state": "default",
-			"states": {
-				"default": {
-					"animations" : [ "idle" ]
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						{
+							"idle" : "query.is_idling"
+						}
+					]
 				}
 			}
 		},
 		"controller.animation.saibamen.walk": {
-			"initial_state": "default",
-			"states": {
-				"default": {
-					"transitions" : [ { "moving" : "query.is_moving" } ]
-				},
-				"moving" : {
-					"animations": [ "walk"],
-					"transitions" : [ { "default" : "!query.is_moving"} ]
-				}
-			}
-		},
-		"controller.animation.saibamen.punch": {
-			"initial_state": "default",
-			"states": {
-				"default": {
-					"transitions" : [ { "punch" : "query.is_punching" } ]
-				},
-				"punch" : {
-					"animations": [ "punch"],
-					"transitions" : [ { "default" : "!query.is_punching"} ]
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						{
+							"move" : "query.modified_move_speed"
+						}
+					]
 				}
 			}
 		}

@@ -13,15 +13,24 @@
       "geometry": {
         "default": "geometry.saibamen_green"
       },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
       "animations": {
-        "idle": "animation.saibamen.idle",
-        "walk": "animation.saibamen.walk",
-        "punch": "animation.saibamen.punch"
+        "move": "animation.humanoid.move",
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "attack.rotations": "animation.humanoid.attack.rotations",
+        "sneaking": "animation.humanoid.sneaking",
+        "bob": "animation.humanoid.bob"
       },
       "animation_controllers": [
-        {"idle": "controller.animation.saibamen.idle"},
-        {"walk": "controller.animation.saibamen.walk"},
-        {"punch": "controller.animation.saibamen.punch"}
+        { "move": "controller.animation.humanoid.move" },
+        { "look_at_target": "controller.animation.humanoid.look_at_target" },
+        { "attack": "controller.animation.humanoid.attack" },
+        { "sneaking": "controller.animation.humanoid.sneaking" },
+        { "bob": "controller.animation.humanoid.bob" }
       ],
       "spawn_egg": {
         "texture": "saibamen_green_egg",
