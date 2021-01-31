@@ -1,0 +1,10 @@
+# Ignore everything except for dev packs
+/behavior_packs
+/minecraftpe
+/minecraftWorlds
+/resource_packs
+/Screenshots
+/skin_packs
+/world_templates
+accmap.dat
+ud*.dat

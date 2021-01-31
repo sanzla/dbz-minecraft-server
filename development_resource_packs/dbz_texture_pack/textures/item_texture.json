@@ -1,0 +1,14 @@
+{
+   "resource_pack_name" : "DBZ Texture Pack",
+   "texture_name" : "atlas.items",
+   "texture_data" : {
+
+      "saibamen_green_egg": {
+         "textures": [
+            "textures/items/custom/saibamen_egg"
+         ]
+      }
+      
+   }
+   
+}

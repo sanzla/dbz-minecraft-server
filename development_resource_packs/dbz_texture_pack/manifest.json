@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "DBZ Texture Pack by SanzLA",
+        "name": "DBZ Texture Pack",
+        "uuid": "d3b18476-6023-4b31-b77f-9ad5fe6882d1",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 16, 200 ]
+    },
+    "modules": [
+        {
+            "description": "DBZ Texture Pack Modules",
+            "type": "resources",
+            "uuid": "dc2e8b2e-a3fc-4565-ab10-f732c453e5d8",
+            "version": [0, 0, 1]
+        }
+    ]
+}

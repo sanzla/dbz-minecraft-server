@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dbz:saibamen",
+      "min_engine_version": "1.12.0",
+      "materials": {
+        "default": "spider"
+      },
+      "textures": {
+        "default": "textures/entity/custom/saibamen_green"
+      },
+      "geometry": {
+        "default": "geometry.saibamen_green"
+      },
+      "animations": {
+        "idle": "animation.saibamen.idle",
+        "walk": "animation.saibamen.walk"
+      },
+      "animation_controllers": [
+        {"idle": "controller.animation.saibamen.idle"},
+        {"walk": "controller.animation.saibamen.walk"}
+      ],
+      "spawn_egg": {
+        "texture": "saibamen_green_egg",
+        "texture_index": 0
+      },
+      "render_controllers": [ "controller.render.saibamen" ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "DBZ Behavior Pack by SanzLA",
+        "name": "DBZ Behavior Pack",
+        "uuid": "7d8c98bf-0c26-4a98-95d1-26f2a287ec8f",
+        "version": [0, 0, 1],
+        "min_engine_version": [1,16,200]
+    },
+    "modules": [
+        {
+            "description": "_",
+            "type": "data",
+            "uuid": "afcf77ee-2178-4382-afcc-8e51396e80a7",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "d3b18476-6023-4b31-b77f-9ad5fe6882d1",
+            "version": [0, 0, 1]
+        }
+    ]
+}
